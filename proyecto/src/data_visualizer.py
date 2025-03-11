@@ -7,7 +7,7 @@ def visualize_data():
     
     # Crear un gráfico de dispersión entre Edad y Salario
     plt.figure(figsize=(8, 6))
-    plt.scatter(data['Age'], data['Salary'], alpha=0.5, color='blue')
+    plt.scatter(data['Age'], data['Salary'], alpha=0.5, color='red')
     plt.title('Relación entre Edad y Salario')
     plt.xlabel('Edad')
     plt.ylabel('Salario (USD)')
