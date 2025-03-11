@@ -1,0 +1,28 @@
+# Ignorar archivos y carpetas de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+*.pot
+*.py[cod]
+
+# Ignorar entornos virtuales
+venv/
+env/
+ENV/
+*.env
+
+# Ignorar archivos de configuración de IDEs y editores comunes
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignorar archivos de Jupyter Notebook
+.ipynb_checkpoints/
